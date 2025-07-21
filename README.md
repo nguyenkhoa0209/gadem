@@ -1,2 +1,7 @@
-# gadem
-Code repository for GADEM paper
+# Geometry-aware deep energy method (GADEM)
+Code and data (available upon request) accompanying the manuscript titled "Geometry-aware framework for deep energy method: an application to structural mechanics with hyperelastic materials", authored Thi Nguyen Khoa Nguyen, Thibault Dairay, Raphael Meunier, Jean Di Stasio, Christophe Millet, Mathilde Mougeot.
+
+## Abstract: 
+In this work, we introduce a novel physics-informed framework named the Geometry-Aware Deep Energy Method (GADEM) for solving structural mechanics problems on different geometries. As the weak form of the physical system equation (or the energy-based approach) has demonstrated clear advantages compared to the strong form for solving solid mechanics problems, GADEM employs the weak form and aims to infer the solution on multiple shapes of geometries. Integrating a geometry-aware framework into an energy-based method results in an effective physics-informed deep learning model in terms of accuracy and computational cost. Different ways to represent the geometric information and to encode the geometric latent vectors are investigated in this work. We introduce a loss function of GADEM which is minimized based on the potential energy of all considered geometries. An adaptive learning method is also employed for the sampling of collocation points to enhance the performance of GADEM. We present some applications of GADEM to solve solid mechanics problems, including a loading simulation of a toy tire involving contact mechanics and large deformation hyperelasticity. The numerical results of this work demonstrate the remarkable capability of GADEM to infer the solution on various and new shapes of geometries using only one trained model.
+
+## Citation
